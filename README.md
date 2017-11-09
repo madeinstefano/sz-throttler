@@ -52,4 +52,6 @@ throttler(function ( notifyExecutionDone ) {
 
 ### Need to stop ASAP
 
-throttle._kill();
+```js
+throttler._kill();
+```
